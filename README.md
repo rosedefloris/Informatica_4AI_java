@@ -1,2 +1,6 @@
 # Informatica_4AI_java
-repository anno 2026/2027
+Qui verrano messi gli esercizi che svilupperemo durante l'anno
+
+
+## Primo esercizio
+In questo **primo** esercizio
