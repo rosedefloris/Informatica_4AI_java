@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Informatica_4AI_java.iml" filepath="$PROJECT_DIR$/.idea/Informatica_4AI_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esercizio_acquisto/esercizio_acquisto.iml" filepath="$PROJECT_DIR$/esercizio_acquisto/esercizio_acquisto.iml" />
     </modules>
   </component>
 </project>
