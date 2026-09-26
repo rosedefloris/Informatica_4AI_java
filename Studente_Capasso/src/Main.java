@@ -9,3 +9,5 @@ public class Main {
         double bbmi = b.calcolaIndice();
     }
 }
+// cin = nome = sc.Next();
+//cognome =sc.nextInt()
