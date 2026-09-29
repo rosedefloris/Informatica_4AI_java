@@ -1,16 +1,16 @@
 public class LampadinaIntelligente {
-    private int potenza;          // in Watt
-    private int illuminazione;    // 0..100
-    private String colore;        // es. "bianco", "giallo", "blu"
-    private String nome;          // assegnato quando aggiunta al sistema
-    private boolean accesa;       // stato on/off
+    private int potenza;
+    private int illuminazione;
+    private String colore;
+    private String nome;
+    private boolean accesa;
 
     public LampadinaIntelligente(int potenza) {
         this.potenza = potenza;
         this.illuminazione = 50;
         this.colore = "bianco";
-        this.nome = null;       // non ha ancora un nome
-        this.accesa = false;    // di default spenta
+        this.nome = null;
+        this.accesa = false;
     }
 
     public LampadinaIntelligente(LampadinaIntelligente altra) {
@@ -21,7 +21,7 @@ public class LampadinaIntelligente {
         this.accesa = altra.accesa;
     }
 
-    // Get e set per il nome
+
     public String getNome() {
         return nome;
     }
