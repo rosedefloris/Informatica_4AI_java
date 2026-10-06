@@ -52,7 +52,7 @@ public class Semaforo {
     @Override
     public String toString() {
         if (this.acceso) {
-            return "Il semaforo è acceso sul " + this.colore;
+            return "Il semaforo è acceso sul  " + this.colore;
         } else {
             return "Il semaforo è spento";
         }
