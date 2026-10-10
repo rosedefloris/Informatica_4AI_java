@@ -2,5 +2,7 @@
 Qui verrano messi gli esercizi che svilupperemo durante l'anno
 
 
-## Primo esercizio
-In questo **primo** esercizio
+## Esercizi fatti
+**Lampadina**
+**Dado(ongoing)**
+**Studenti**
