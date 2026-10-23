@@ -10,10 +10,11 @@ public class Angolo {
         semplifica();
     }
 
-    // Normalizza: 60 sec = 1 min, 60 min = 1 grado, 360° = 0°
+
     private void semplifica() {
         int totSecondi = gradi * 3600 + minuti * 60 + secondi;
-        totSecondi = ((totSecondi % (360 * 3600)) + (360 * 3600)) % (360 * 3600);
+        int modulo = 360 * 3600;
+        totSecondi = ((totSecondi % modulo) + modulo) % modulo;
         gradi   = totSecondi / 3600;
         minuti  = (totSecondi % 3600) / 60;
         secondi = totSecondi % 60;

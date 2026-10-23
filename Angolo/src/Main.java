@@ -26,26 +26,32 @@ public class Main {
             scelta = sc.nextInt();
 
             switch (scelta) {
-                case 1 -> {
+                case 1: {
                     Angolo a = creaAngolo();
                     System.out.println("Angolo semplificato: " + a);
+                    break;
                 }
-                case 2 -> {
+                case 2: {
                     System.out.println("Primo angolo:");
                     Angolo a1 = creaAngolo();
                     System.out.println("Secondo angolo:");
                     Angolo a2 = creaAngolo();
                     System.out.println("Somma = " + a1.sommaAngolo(a2));
+                    break;
                 }
-                case 3 -> {
+                case 3: {
                     System.out.println("Primo angolo:");
                     Angolo a1 = creaAngolo();
                     System.out.println("Secondo angolo:");
                     Angolo a2 = creaAngolo();
                     System.out.println("Differenza = " + a1.sottraiAngolo(a2));
+                    break;
                 }
-                case 0 -> System.out.println("Arrivederci!");
-                default -> System.out.println("Scelta non valida.");
+                case 0:
+                    System.out.println("Arrivederci!");
+                    break;
+                default:
+                    System.out.println("Scelta non valida.");
             }
         } while (scelta != 0);
     }
